@@ -1,0 +1,10 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.1rem;
+}
+
+.gradient {
+    background: -webkit-linear-gradient(45deg, #0238fb, #ef8c3e 80%);
+}
