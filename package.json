@@ -2,12 +2,18 @@
   "name": "jocelyn-yoga",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ychaiu.github.io/jocelyn-yoga",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "react": "^16.8.6",
+    "react-bootstrap": "^1.0.0-beta.8",
     "react-dom": "^16.8.6",
-    "react-scripts": "2.1.8"
+    "react-scripts": "2.1.8",
+    "react-scroll": "^1.7.11"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

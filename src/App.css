@@ -5,6 +5,15 @@ html, body {
     letter-spacing: 0.1rem;
 }
 
-.gradient {
+/* .gradient {
     background: -webkit-linear-gradient(45deg, #0238fb, #ef8c3e 80%);
+} */
+
+.container {
+    margin: 0;
+    max-width: 100%;
+}
+
+.col {
+    padding: 0;
 }

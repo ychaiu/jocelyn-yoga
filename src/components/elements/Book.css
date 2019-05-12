@@ -1,0 +1,13 @@
+.book-row{
+    background-color: #9fb5c5;
+    color: white;
+    margin: 0;
+}
+
+.book-row .col{
+    padding: 2%;
+}
+
+.book-text{
+    font-size: 0.9rem;
+}
