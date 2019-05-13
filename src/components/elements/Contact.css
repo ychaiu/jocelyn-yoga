@@ -1,3 +1,20 @@
-.contact-form{
-    text-align: center;
+.contact {
+    background-image: url(../../assets/homepage-photos/DSC04275.jpg);
+    background-size: cover;
+    height: 500px;
+    background-position: 0% 30%;
+}
+
+.contact-form {
+    width: 30%;
+    color: white;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    transform: translate(0%, -50%);
+}
+
+.form-box {
+    width: 100%;
 }

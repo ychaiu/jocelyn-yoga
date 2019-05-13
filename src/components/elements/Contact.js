@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import SingleInput from '../presentational/SingleInput';
 import TextArea from '../presentational/TextArea';
 import Button from '../presentational/Button';
+import './Contact.css';
 
 class Contact extends Component {
     constructor(props){
@@ -30,7 +31,7 @@ class Contact extends Component {
         return (
             <div className='contact-form mr="auto"'>
                 <div id="contact-blurb">
-                Whether you have a cool idea, have feedback on my work, or simply want to connect, I'd love to hear from you.
+                If you're interested in booking a session, or if you simply want to drop a note, I'd love to hear from you!
                 </div>
                 <SingleInput 
                     name={'name'}
@@ -38,7 +39,7 @@ class Contact extends Component {
                     value={this.state.name}
                     handleChange={this.handleInput}
                     placeholder={'Your Name'}
-                    className={'form-name'}
+                    className={'form-box form-name'}
                 />
                 <SingleInput
                     name={'email'}
@@ -46,7 +47,7 @@ class Contact extends Component {
                     value={this.state.email}
                     handleChange={this.handleInput}
                     placeholder={'Your Email'}
-                    className={'form-email'}
+                    className={'form-box form-email'}
                 />
                 <TextArea 
                     name={'message'}
@@ -55,7 +56,7 @@ class Contact extends Component {
                     value={this.state.message}
                     handleChange={this.handleInput}
                     placeholder={'Message'}
-                    className={'form-message'}
+                    className={'form-box form-message'}
                 />
                 <Button 
                     className={'contact-button'}

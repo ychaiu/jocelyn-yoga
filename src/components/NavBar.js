@@ -25,7 +25,7 @@ class NavBar extends Component {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ml-auto pr-md-5">
-                        <Nav.Link>
+                        <Nav.Link className="nav-link">
                             <Link
                                 activeClass="active"
                                 to="about"
@@ -37,7 +37,7 @@ class NavBar extends Component {
                                 ABOUT
                             </Link>
                         </Nav.Link>
-                        <Nav.Link>
+                        <Nav.Link className="nav-link">
                             <Link
                                 activeClass="active"
                                 to="book"
@@ -49,7 +49,7 @@ class NavBar extends Component {
                                 BOOK A SESSION
                             </Link>
                         </Nav.Link>
-                        <Nav.Link>
+                        <Nav.Link className="nav-link">
                             <Link
                                 activeClass="active"
                                 to="contact"
@@ -60,7 +60,6 @@ class NavBar extends Component {
                             >
                                 CONTACT
                             </Link>
-
                         </Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
